@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lwl-project-eureka-6083" />
+        <module name="lwl-project-zuul" />
+        <module name="lwl-project-model" />
+        <module name="lwl-project-provider-backup" />
+        <module name="lwl-project-consumer-management" />
+        <module name="lwl-project-mapper" />
+        <module name="lwl-project-config" />
+        <module name="lwl-project-service" />
+        <module name="lwl-project-eureka-6082" />
+        <module name="lwl-project-common" />
+        <module name="lwl-project-eureka-6081" />
+        <module name="lwl-project-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lwl--project-management" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

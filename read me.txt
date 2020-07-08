@@ -1,0 +1,21 @@
+1、各层之间的依赖关系
+
+project-common 不依赖任何
+    属于公共工程 utils,枚举，静态常量
+project-config 依赖于common
+    配置中心
+eureka-management 不依赖任何
+    注册中心
+consumer-management 依赖于 project-management下的project-api（feign）
+    消费者 ..backup写后台
+provider-management 依赖于 project-management下的project-service
+    生产者 ..backup写后台
+project-model不依赖任何
+    实体类
+project-mapper依赖于project-model
+    接口
+project-api依赖于project-model
+    接口
+project-service依赖于project-mapper以及project-config
+    业务
+project-management依赖于project-common
